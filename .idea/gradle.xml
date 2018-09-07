@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/12-11testdeletedir" />
+            <option value="$PROJECT_DIR$/4-28testtoast" />
+            <option value="$PROJECT_DIR$/5-11-2018testhashmap" />
+            <option value="$PROJECT_DIR$/5-5-2018testmediaplay" />
+            <option value="$PROJECT_DIR$/6-15inputmethod" />
+            <option value="$PROJECT_DIR$/6-23baidu_input_method" />
+            <option value="$PROJECT_DIR$/7-11-inputmethoddemo" />
+            <option value="$PROJECT_DIR$/7-20qintingsdk" />
+            <option value="$PROJECT_DIR$/8-28testslideblack" />
+            <option value="$PROJECT_DIR$/data_structure" />
+            <option value="$PROJECT_DIR$/lib" />
+            <option value="$PROJECT_DIR$/myapplication" />
+            <option value="$PROJECT_DIR$/myapplication2" />
+            <option value="$PROJECT_DIR$/mylibrary" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="IPTFILES">
+
+        <!-- 汉字字库 -->
+        <item>Hz.bin</item>
+        <!-- 中文自造词 -->
+        <item>Uz2.bin</item>
+        <!-- 细胞词库 -->
+        <item>Cell.bin</item>
+        <!-- 繁体字字库 -->
+        <item>Ft.bin</item>
+        <!-- 笔画查询 -->
+        <item>bh2.bin</item>
+        <!-- 英文自造词 -->
+        <item>ue2.bin</item>
+        <!-- 符号列表 -->
+        <item>sym2.bin</item>
+        <!-- 符号联想 -->
+        <item>syml.bin</item>
+        <!-- 个性短语 -->
+        <item>phrase.bin</item>
+        <!-- 联系人词库 -->
+        <item>contact.bin</item>
+        <!-- 自定义输入方案 -->
+        <item>def.bin</item>
+        <!-- 五笔输入方案 -->
+        <item>Wb.bin</item>
+        <!-- 英文词库 -->
+        <item>en2.bin</item>
+        <!-- 三维词库，文件太大，预装的话使用图片后缀名 -->
+        <item>gram.bin</item>
+        <!-- 关键字词库 -->
+        <item>keyword.bin</item>
+        <!-- 根据ttf过滤的文件 -->
+        <item>ttffilter.ini</item>
+        <!-- 手写自造词词库 -->
+        <item>Uzw.bin</item>
+        <!-- 火星文 -->
+        <item>huoxingwen.bin</item>
+        <!-- 其他关键字对应关系 ，例如卖萌文 -->
+        <item>otherword.bin</item>
+        <!-- 仓颉 -->
+        <item>cangjie.bin</item>
+        <!-- 注音 字库 -->
+        <item>hz_zy.bin</item>
+        <!-- 注音 词库 -->
+        <item>cz_zy.bin</item>
+        <!-- 拼音纠正文件 -->
+        <item>ch_cor2.bin</item>
+        <!-- 盲打拼音模板 -->
+        <item>kp.bin</item>
+        <!-- 手写汉字模板文件 -->
+        <item>iptwt_20151202.bin</item>
+        <!-- 歇后语模板文件 -->
+        <item>xhy.bin</item>
+        <!-- 手写部首筛选模板文件 -->
+        <item>wt_bs.bin</item>
+        <!-- 汉字场景化文件 -->
+        <item>hz_label.bin</item>
+        <!-- 颜文字id映射文件 -->
+        <item>idmap.bin</item>
+        <!-- 云输入关键字文件 -->
+        <item>cloud_keyword.bin</item>
+        <!-- 盲人辅助下载文件 -->
+        <item>cxt.bin</item>
+        <!-- v-k文件 -->
+        <item>vkword.bin</item>
+        <!-- search文件 -->
+        <item>search.bin</item>
+        <!-- 98五笔词库 一定要放在最后一个位置 -->
+        <item>Wb98.bin</item>
+    </array>
+    <array name="SYSFILES">
+        <item>inputcore_20170221</item>
+        <item>setting</item>
+        <item>sp26.ini</item>
+        <item>sp10.ini</item>
+        <item>symcc</item>
+        <item>flaunch</item>
+        <item>logomenu_order</item>
+    </array>
+    <array name="INSTALLFILES">
+
+        <!-- 个性短语的plus文件 -->
+        <item>phrase_plus.ini</item>
+        <!-- 快速输入文件 -->
+        <item>fast_input.kwd</item>
+        <!-- 直达号输入文件 -->
+        <item>zdh.kwd</item>
+        <!-- 多媒体输入文件 -->
+        <item>media.kwd</item>
+        <!-- emoji扩展包 -->
+        <item>emojiextend.kwd</item>
+        <!-- 二次元数据文件  -->
+        <item>nijigen.kwd</item>
+        <!-- emoji输入文件 -->
+        <item>emoji.kwd</item>
+        <!-- 颜文字联想文件 -->
+        <item>yan.kwd</item>
+        <!-- 颜文字映射文件 -->
+        <item>yan.idm</item>
+        <!-- 高频口语分类词库 -->
+        <item>0.bcd</item>
+        <!-- 成语俗语分类词库 -->
+        <item>1.bcd</item>
+        <!-- 手机软件分类词库 -->
+        <item>2.bcd</item>
+        <!-- 邮箱密码文件-->
+        <item>email</item>
+    </array>
+    <array name="emoji_extend">
+
+        <!-- emoji扩展包 -->
+        <item>emojiextend.kwd</item>
+    </array>
+
+    <string name="OLD_UZ_5_1">Uz.bin</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/12-11testdeletedir/12-11testdeletedir.iml" filepath="$PROJECT_DIR$/12-11testdeletedir/12-11testdeletedir.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4-28testtoast/4-28testtoast.iml" filepath="$PROJECT_DIR$/4-28testtoast/4-28testtoast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5-11-2018testhashmap/5-11-2018testhashmap.iml" filepath="$PROJECT_DIR$/5-11-2018testhashmap/5-11-2018testhashmap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5-5-2018testmediaplay/5-5-2018testmediaplay.iml" filepath="$PROJECT_DIR$/5-5-2018testmediaplay/5-5-2018testmediaplay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6-15inputmethod/6-15inputmethod.iml" filepath="$PROJECT_DIR$/6-15inputmethod/6-15inputmethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6-23baidu_input_method/6-23baidu_input_method.iml" filepath="$PROJECT_DIR$/6-23baidu_input_method/6-23baidu_input_method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7-11-inputmethoddemo/7-11-inputmethoddemo.iml" filepath="$PROJECT_DIR$/7-11-inputmethoddemo/7-11-inputmethoddemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7-20qintingsdk/7-20qintingsdk.iml" filepath="$PROJECT_DIR$/7-20qintingsdk/7-20qintingsdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/8-28testslideblack/8-28testslideblack.iml" filepath="$PROJECT_DIR$/8-28testslideblack/8-28testslideblack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib.iml" filepath="$PROJECT_DIR$/lib/lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myapplication2/myapplication2.iml" filepath="$PROJECT_DIR$/myapplication2/myapplication2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/mylibrary/mylibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project11-20.iml" filepath="$PROJECT_DIR$/project11-20.iml" />
+    </modules>
+  </component>
+</project>
