@@ -18,6 +18,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         View viewById = findViewById(R.id.tv);
 
         String path = Environment.getExternalStorageDirectory().getPath();

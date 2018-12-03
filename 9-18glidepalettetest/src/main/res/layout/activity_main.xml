@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="65dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:background="#f00">
+
+    <ImageView
+        android:id="@+id/iv_item_app_icon"
+        android:layout_width="79px"
+        android:layout_height="79px"
+        android:layout_marginLeft="6.5px"
+        android:layout_centerVertical="true"
+        android:src="@drawable/tmask"/>
+
+    <ImageView
+        android:id="@+id/iv_item_app_icon_bumblebeed"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:src="@drawable/ic_app_bumblebeed"
+        android:layout_centerVertical="true"/>
+
+    <ImageView
+        android:id="@+id/unread_view_item_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="3dp" />
+
+    <TextView
+        android:id="@+id/tv_item_app_name"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/iv_item_app_icon"
+        android:layout_toLeftOf="@+id/unread_view_item_app"
+        android:layout_marginLeft="10dp"
+        android:gravity="left|center"
+        android:maxLines="1"
+        tools:text="你才是个应用的"/>
+
+</RelativeLayout>
