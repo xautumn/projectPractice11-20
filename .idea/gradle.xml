@@ -8,7 +8,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/12-11testdeletedir" />
             <option value="$PROJECT_DIR$/4-28testtoast" />
             <option value="$PROJECT_DIR$/5-11-2018testhashmap" />
             <option value="$PROJECT_DIR$/5-5-2018testmediaplay" />
@@ -24,6 +23,7 @@
             <option value="$PROJECT_DIR$/myapplication" />
             <option value="$PROJECT_DIR$/myapplication2" />
             <option value="$PROJECT_DIR$/mylibrary" />
+            <option value="$PROJECT_DIR$/okhhtptest" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

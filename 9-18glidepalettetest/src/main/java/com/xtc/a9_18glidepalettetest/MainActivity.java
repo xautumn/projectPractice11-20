@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i("wq", "mBlue = " + mBlue);
     }
 
-    public Drawable getHexagonAppIcon(String packageName, Boolean isOpen) {
+/*    public Drawable getHexagonAppIcon(String packageName, Boolean isOpen) {
         LogUtil.i("getHexagonAppIcon = " + roundedRectangleFrameWidth + "--roundedRectangleFrameHeight = " + roundedRectangleFrameHeight);
         Drawable drawable = getAppIcon(packageName);
         BitmapDrawable bd = (BitmapDrawable) drawable;
@@ -117,5 +117,5 @@ public class MainActivity extends AppCompatActivity {
         canvas.drawBitmap(bitmap, 0.0f, 0.0f, paint);
 
         return new BitmapDrawable(mContext.getResources(), output);
-    }
+    }*/
 }

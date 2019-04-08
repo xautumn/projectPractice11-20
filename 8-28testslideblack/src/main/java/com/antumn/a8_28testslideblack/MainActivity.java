@@ -7,24 +7,48 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Toast;
+
+import com.antumn.a8_28testslideblack.tcp.TCPClient;
+import com.antumn.a8_28testslideblack.tcp.TCPServer;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends Activity {
-
+    private TCPClient tcpClient;
+    int i = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         View viewById = findViewById(R.id.tv);
+        View write = findViewById(R.id.write);
+        viewById.setOnClickListener(new View.OnClickListener() {
 
+
+
+            @Override
+            public void onClick(View v) {
+                Log.i("wq", "start socket ");
+                tcpClient = new TCPClient("172.28.180.73",12000);
+            }
+        });
+        write.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i("wq", "write  ");
+                tcpClient.write("i want to write mes" + i);
+                i++;
+            }
+        });
         String path = Environment.getExternalStorageDirectory().getPath();
         Log.i("wq", "path = " + path);
         File file = new File(path);
         file.delete();
+
 
     }
 
