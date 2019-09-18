@@ -30,15 +30,16 @@ public class Main3Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main3);
         getSupportActionBar().hide();
         tvDialog = findViewById(R.id.tv_dialog);
-        mediaHelper = new MediaHelper(this);
+        //mediaHelper = new MediaHelper(this);
 
         ValueAnimator valueAnimator =
                 ObjectAnimator.ofInt();
         tvDialog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                CloudMusicPlayService.startCloudMusicPlayService(Main3Activity.this, "test");
 
-                mediaHelper.startDrainVoice();
+                //mediaHelper.startDrainVoice();
                 //showNormalDialog();
             }
         });

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.autumn.a9_27sensor">
-    <uses-feature android:name="android.hardware.type.watch" />
+
+  <!--  <uses-feature android:name="android.hardware.type.watch" />-->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
@@ -14,18 +15,24 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".Main2Activity">
+
+        </activity>
+        <activity android:name=".Main3Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Main2Activity">
 
-        </activity>
-        <activity android:name=".Main3Activity">
-
-        </activity>
+        <service android:name=".CloudMusicPlayService" android:exported="true">
+            <intent-filter>
+                <action android:name="test" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>

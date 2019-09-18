@@ -18,6 +18,8 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 import rx.Observable;
+import rx.android.schedulers.AndroidSchedulers;
+import rx.schedulers.Schedulers;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -99,45 +101,5 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    protected void test() {
-        Observable<String> observable = Observable
-                .create(new ObservableOnSubscribe<String>() {
-                    @Override
-                    public void subscribe(@NonNull ObservableEmitter<String> emitter) throws
-                            Exception {
-                        emitter.onNext("hello");
-                    }
-                })
-                .map(new Function<String, String>() {
-                    @Override
-                    public String apply(String s) throws Exception {
-                        return s;
-                    }
-                })
-                .subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread());
-
-        observable.subscribe(new Observer<String>() {
-            @Override
-            public void onSubscribe(Disposable d) {
-                comDisposable.add(d);
-            }
-
-            @Override
-            public void onNext(String s) {
-                Log.i(TAG, s);
-            }
-
-            @Override
-            public void onError(Throwable e) {
-
-            }
-
-            @Override
-            public void onComplete() {
-
-            }
-        });
-    }
 
 }
